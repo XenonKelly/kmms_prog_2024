@@ -1,12 +1,13 @@
 #pragma once
+#include <iostream>
 		
-namespace IBusko {
+namespace KLikhosherstova {
 	template <typename T> 
 	class Vector {
 		private:
 			T* arr;
 			std::size_t capacity = 10;
-			std::size_t size = 0;
+			std::size_t vec_size = 0;
 		public:
 			Vector() noexcept;
 			Vector(const Vector&) = delete;

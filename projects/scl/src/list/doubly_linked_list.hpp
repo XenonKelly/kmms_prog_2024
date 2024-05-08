@@ -2,7 +2,7 @@
 
 #include <cstddef>
 
-namespace IBusko {
+namespace KLikhosherstova {
 	template <typename T> 
 	class DoublyLinkedList {
 		private:
